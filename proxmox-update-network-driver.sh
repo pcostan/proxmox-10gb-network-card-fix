@@ -21,7 +21,7 @@ make install
 echo "Let's bind drivers to our NICs"
 modinfo ixgbe
 
-# Here you need to find your device names of NIC ports, so we can bind drivers to these NICs
+# Here you need to find your device names of NIC ports, so we can bind drivers to these NICs YOu can find this in Proxmox UI PVE > System > Network
 modprobe ixgbe [parameter=YOURNICPORT0,YOURNICPORT1]
 
 echo "Finished lets reboot!"
