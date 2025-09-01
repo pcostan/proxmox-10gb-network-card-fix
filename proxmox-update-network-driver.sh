@@ -3,7 +3,9 @@
 echo "Let's cd in to temp folder"
 cd /tmp
 
-echo "Let's Dowload latest network drivers"
+# Here you can find Intel's latest network drivers.
+# https://www.intel.com/content/www/us/en/download/14302/intel-network-adapter-driver-for-pcie-intel-10-gigabit-ethernet-network-connections-under-linux.html
+echo "Let's Download latest network drivers" 
 wget https://downloadmirror.intel.com/861564/ixgbe-6.1.6.tar.gz
 
 echo "Let's extract files"
