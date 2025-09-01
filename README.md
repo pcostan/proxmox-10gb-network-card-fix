@@ -3,7 +3,7 @@ Bash script to fix Proxmox Network fix
 
 1. Go to Proxmox UI - PVE > shell
    
-2. Create script file but running `touch proxmox-update-network-driver.sh` or download file by `wget`
+2. Create script file but running `touch proxmox-update-network-driver.sh` or download file by `wget https://raw.githubusercontent.com/pcostan/proxmox-10gb-network-card-fix/refs/heads/main/proxmox-update-network-driver.sh`
    
 3. Copy eveything in proxmox-update-network-driver.sh or skip this if you had dowloaded script file.
 
