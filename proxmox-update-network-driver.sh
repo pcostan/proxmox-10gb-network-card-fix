@@ -21,7 +21,8 @@ make install
 echo "Let's bind drivers to our NICs"
 modinfo ixgbe
 
-modprobe ixgbe [parameter=ens8191f0,ens8191f1]
+# Here you need to find your device names of NIC ports, so we can bind drivers to these NICs
+modprobe ixgbe [parameter=YOURNICPORT0,YOURNICPORT1]
 
 echo "Finished lets reboot!"
 rmmod ixgbe; modprobe ixgbe && reboot
